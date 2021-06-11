@@ -6,3 +6,5 @@ w = words[random.randint(1, 34010)]
 print(w)
 print('Your word:')
 print('_' * (len(w) - 1))
+print('Select a letter:')
+letter = input()
